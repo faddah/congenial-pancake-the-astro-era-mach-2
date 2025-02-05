@@ -1,0 +1,16 @@
+name = "kitchenometry"
+account_id = "ba8ba66ac9b30a44c94f747f6ddd3168"
+workers_dev = true
+compatibility_date = "2025-02-01"
+main = "dist/worker.js"
+routes = [
+  { pattern = "kitchenometry.com", custom_domain = true }
+]
+
+[build]
+command = "npm run build"
+watch_dir = "src"
+
+[observability]
+enabled = true
+
