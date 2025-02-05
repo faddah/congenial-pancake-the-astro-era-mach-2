@@ -13,8 +13,8 @@ import {
 	AccordionItem,
 	AccordionTrigger,
 } from './ui/accordion';
-import '../styles/global.css';
-import '../styles/styles.css';
+import '@/styles/global.css';
+import '@/styles/styles.css';
 
 const CookingCalculatorApp = () => {
 	// Common conversion factors
