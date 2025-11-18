@@ -14,8 +14,6 @@ import {
   AccordionTrigger,
 } from './components/ui/accordion';
 
-import '/styles/global.css';
-
 const CookingCalculatorApp = () => {
   // Common conversion factors
   const conversions = {
